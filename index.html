@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ParkSmart</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+    <a href="index.html"><font size="22"><b>ParkSmart</b></font></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="how%20it%20works.html">HOW IT WORKS</a></li>
+        <li><a href="form-login.html">LOG IN/SIGN UP</a></li>
+        <li><a href="about%20us.html">ABOUT US</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+        <li><a href="privacypolicy.htm">Privacy Policy</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <div class="mySlides fade">
+    <img src="PARK%20SMART%20(1).png" style="width:100%">
+  </div>
+   <div class="mySlides fade">
+    <img src="slide1.jpg" style="width:100%">
+  </div>
+<div class="slideshow-container">
+   <div class="mySlides fade">
+    <img src="PS.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="Untitled%20design.jpg" style="width:100%">
+  </div>
+<div style="text-align:center">
+  <span class="dot" onclick="PS.jpg"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+    <br>
+     <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3500); 
+}
+</script>
+<br>
+<br>
+<h1 align="center">PARKING IN YOUR HANDS</h1>
+<br>
+<br>
+<br>
+      <!-- Services -->
+      <section id="services" class="clear">
+        <article class="one_third">
+          <figure><img src="rounded_corners.png" width="290" height="180" alt="">
+<br>
+<br>
+            <figcaption>
+              <h2>Wherever,Whenever</h2>
+              <p align="center">Choose from 1,000's of spaces across  <br><br>Chandigarh
+                Find your best option<br><br> for every car journey</p>
+            </figcaption>
+          </figure>
+        </article> 
+        <article class="one_third">
+          <figure><img src="rounded_corners2.png" width="290" height="180" alt="">
+            <br>
+	    <br>
+      <figcaption>
+              <h2 align="center">Peace of Mind</h2>
+              <p align="center">View availability information and parking<br><br> restrictions
+                  Reserve in advance at</br><br> over 40,000 spaces</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="one_third lastbox">
+          <figure><img src="rounded_corners3.png" width="290" height="180" alt="">
+            <br>
+	    <br>
+      <figcaption>
+              <h2>Seamless experience</h2>
+              <p align="center">Pay for ParkSmart spaces via various options<br><br>
+Follow easy directions and <br>
+<br>access instructions</p>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+      <!-- / Services -->
+     
+      <!-- Introduction -->
+      <section id="intro" class="last clear">
+        <article>
+          <figure><img src="" width="450" height="350" alt="">
+            <figcaption>
+             <hr align="center" width="950" style="border: 1px solid #000000;"><br>
+              <h1 align="center">What We Do</h1><br>
+              <p align="Center">ParkSmart are experts in data-driven parking management. With our industry-leading solution, we maximise returns from under-utilised <br><br> car parks at offices, hotels, retail centres or vacant land - and transform payments with the Chandigarh's favourite parking web portal.<br><br>
+Full car park set-up, onboarding and 24/7 in-house customer helpdesk provided.<br><br>
+ParkSmart's car park technology can be precisely tailored to your specific needs - either by integrating into your existing setup to drive additional value, or by managing<br><br> entire sites end-to-end.<br><br>
+           <br><a href="contactus.html" style="
+    background-color: #6caee0; color: #000000; padding: 14px 25px; text-align: center; border-radius: 3px;"> Get In Touch </a><br></p>
+            
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+                
+      <!-- / Introduction -->
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <div id="footer" class="clear">
+    <!-- Section One -->
+    <section class="one_quarter">
+      <nav>
+         <ul>
+        <li><a href="how%20it%20works.html">HOW IT WORKS</a></li>
+        <li><a href="form-login.html">LOG IN/SIGN UP</a></li>
+        <li><a href="about%20us.html">ABOUT US</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+        <li><a href="privacypolicy.htm">Privacy Policy</a></li>
+      </ul>
+      </nav>
+    </section>
+    <!-- / Section -->
+  </div>
+</div>
+<!-- Copyright -->
+<div class="wrapper row4">
+  <footer id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved -ParkSmart</p>
+  </footer>
+</div>
+</body>
+</html>
